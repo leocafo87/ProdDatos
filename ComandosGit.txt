@@ -12,6 +12,9 @@ cd ProdDatos/
 **Cambiarse a la rama Develop
 git checkout Develop
 
+*Saber el estado de mi rama
+git status
+
 **Crear una rama
 *** Cambiar (NombreRama) por un nombre de una rama sin espacios
 git checkout -b (NombreRama)
@@ -19,9 +22,6 @@ git checkout -b (NombreRama)
 
 *Adicional las modificaciones 
 git add -A
-
-*Saber el estado de mi rama
-git status
 
 *Preparar un commit
 git commit -m "Descripcion del cambio"
@@ -34,6 +34,7 @@ git checkout Develop
 
 **Hacer merge de codigo de su rama con develop
 git merge (NombreRama)
+
 --Resolver los conflictos
 
 

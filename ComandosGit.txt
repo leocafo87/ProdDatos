@@ -1,0 +1,40 @@
+**Clonar un repositorio
+git clone https://github.com/leocafo87/ProdDatos.git
+
+**Configurar git
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+**entrar a la carpeta ProdDatos
+cd ProdDatos/
+
+**Cambiarse a la rama Develop
+git checkout Develop
+
+**Crear una rama
+*** Cambiar (NombreRama) por un nombre de una rama sin espacios
+git checkout -b (NombreRama)
+
+
+*Adicional las modificaciones 
+git add -A
+
+*Saber el estado de mi rama
+git status
+
+*Preparar un commit
+git commit -m "Descripcion del cambio"
+
+*Subir cambios al reposirorio
+git push origin (NombreRama)
+
+**Cambiarse a la rama Develop
+git checkout Develop
+
+**Hacer merge de codigo de su rama con develop
+git merge (NombreRama)
+--Resolver los conflictos
+
+
+

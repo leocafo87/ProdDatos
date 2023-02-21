@@ -1,8 +1,10 @@
+**Abrir docker desktop
+
 **Levantar wsl
 wsl
 
 **ir a la ruta del proyecto
-cd /mnt/c/ProductosDatos/Proyecto
+cd /mnt/c/ProductosDatos/TrabajoGrupo/ProdDatos
 
 **Levantar la imagen de Ubuntu
 docker run --rm -it --name ubuntu -p 5006:5006 -p 8888:8888 -p 8080:8080 -v "$PWD":/workspace jdvelasq/ubuntu:20.04

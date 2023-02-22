@@ -3,21 +3,16 @@ import pandas as pd
 import re
 
 def formulaWithoutNumber(dfGFA):
-    #Lee el archivo de compuestos
-    dfGFA= read_files.loadGFA()
-
+    print('Estoy en la funcion formulaWithoutNumber')
     #Definir un df para guardar el resulrado
     dfCompound = pd.DataFrame(columns =['Formula', 'Phase'])
-
     #Para cada copuesto en el archivo que solo tenga caracteres, se hace la separacion por elementos
     # y se divide 100 entre la cantidad de elementos encontrados
-
     for index,row in dfGFA.iterrows():
         formulaTx = row['Formula']
         Phase = row['Phase']
         #Seleccionar compuestos sin valores numericos
         if str.isalpha(formulaTx):
-            #strleng = len(formulaTx)
             for char in formulaTx:
                 if char.isupper():
                     element = re.findall('[A-Z][^A-Z]*', formulaTx)

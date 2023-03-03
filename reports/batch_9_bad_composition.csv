@@ -1,0 +1,3 @@
+index,Formula,Phase,Elem1,Elem2,Elem3,Elem4,Elem5,Elem6,Elem7,Elem8,CantElemen,Compo1,Compo2,Compo3,Compo4,Compo5,Compo6,Compo7,Compo8,Suma,validation
+22.0,Al30Ca70,RMG,Al,Ca,0,0,0,0,0,0,2,70.0,120.0,0.0,0.0,0.0,0.0,0,0,190.0,False
+262.0,Cu33Zr67,RMG,Cu,Zr,0,0,0,0,0,0,2,33.0,67.0,100.0,0.0,0.0,0.0,0,0,200.0,False

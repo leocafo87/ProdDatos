@@ -12,6 +12,7 @@ docker run --rm -it --name ubuntu -p 5006:5006 -p 8888:8888 -p 8080:8080 -v "$PW
 **Installar pandas
 apt-get install python3-pip
 pip install pandas
+pip install python-ternary
 
 **Ejecutar el codigo
 make -C Source main

@@ -28,9 +28,9 @@ def findIndexPosition(dfGFA,dfElements):
     temp_dfGFA= pd.DataFrame(data=formulas)
     temp_dfElements= pd.DataFrame(data=elements)
 
-    temp_dfGFA= read_files.loadGFA()
+    #temp_dfGFA= read_files.loadGFA()
     dfFormula=temp_dfGFA
-    temp_dfElements = read_files.loadTablaPeriodica() 
+    #temp_dfElements = read_files.loadTablaPeriodica() 
     dfElements=temp_dfElements
 
     #Procesa las formulas que no tienen valores de proporcion

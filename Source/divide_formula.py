@@ -3,7 +3,7 @@ import re
 import numpy as np
 
 
-def separar_formula(formula):
+def divide_formula(formula):
     """
     Toma una fórmula química y la separa en elementos y sus composiciones.
     Devuelve un diccionario que contiene los elementos y sus cantidades.

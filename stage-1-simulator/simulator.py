@@ -155,6 +155,6 @@ def restart():
     print('Bienvenidos a la simulacion')
     print('Hay a disposicion 20 lotes de compuestos quimicos')
     print('****************************************************')
-    print('Para empezar la simulacion, ejecute el siguiente comando:\n python advance.py <lote>, \n el valor maximo es 20, \n si no digita un valor, se ejecutara un unico lote, \n si desea ejecutar mas de un lote, digite los lotes separados por comas')
+    print('Para empezar la simulacion, ejecute el siguiente comando:\n python advance.py <lote>, \n el valor maximo es 20, \n si no digita un valor, se ejecutaran todos los lotes, \n si desea ejecutar mas de un lote, digite los lotes separados por comas')
     
     

@@ -1,5 +1,5 @@
 index,Formula,Phase,Elem1,Elem2,Elem3,Elem4,Elem5,Elem6,Elem7,Elem8,CantElemen,Compo1,Compo2,Compo3,Compo4,Compo5,Compo6,Compo7,Compo8
-22.0,Al30Ca70,RMG,Al,Ca,0,0,0,0,0,0,2,70,120,0,0,0,0,0,0
+22.0,Al30Ca70,RMG,Al,Ca,0,0,0,0,0,0,2,30,70,0,0,0,0,0,0
 56.0,Al81Cr19,CRA,Al,Cr,0,0,0,0,0,0,2,81,19,0,0,0,0,0,0
 83.0,Al89Y11,RMG,Al,Y,0,0,0,0,0,0,2,89,11,0,0,0,0,0,0
 116.0,Al94Mn6,CRA,Al,Mn,0,0,0,0,0,0,2,94,6,0,0,0,0,0,0
@@ -8,7 +8,7 @@ index,Formula,Phase,Elem1,Elem2,Elem3,Elem4,Elem5,Elem6,Elem7,Elem8,CantElemen,C
 169.0,B25Co75,RMG,B,Co,0,0,0,0,0,0,2,25,75,0,0,0,0,0,0
 180.0,B32Co68,RMG,B,Co,0,0,0,0,0,0,2,32,68,0,0,0,0,0,0
 214.0,Be43Ti57,CRA,Be,Ti,0,0,0,0,0,0,2,43,57,0,0,0,0,0,0
-262.0,Cu33Zr67,RMG,Cu,Zr,0,0,0,0,0,0,2,33,67,100,0,0,0,0,0
+262.0,Cu33Zr67,RMG,Cu,Zr,0,0,0,0,0,0,2,33,67,0,0,0,0,0,0
 264.0,Cu37.5La62.5,RMG,Cu,La,0,0,0,0,0,0,2,37.5,62.5,0,0,0,0,0,0
 287.0,Cu63Fe37,CRA,Cu,Fe,0,0,0,0,0,0,2,63,37,0,0,0,0,0,0
 292.0,Cu70Hf30,RMG,Cu,Hf,0,0,0,0,0,0,2,70,30,0,0,0,0,0,0

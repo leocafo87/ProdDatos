@@ -1,0 +1,9 @@
+name: my_project
+conda_env: conda.yaml
+entry_points:
+    main:
+        parameters:
+            n_estimators: {type: float, default: 100}
+            max_depth: {type: float, default: 10}
+            random_state: {type: integer, default: 1}
+        command: 'python3 train_model.py {n_estimators} {max_depth} {random_state}'
